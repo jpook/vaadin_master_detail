@@ -5,36 +5,40 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.kws.simple.cross.helper.MethodHelper;
+
 public class MethodHelperTest {
 
-	
+	MethodHelper mh;
+
 	@Before
 	public void setUp() throws Exception {
+		mh = new MethodHelper();
 	}
 
 	@Test
 	public void testGetPropertyName1() {
-		assertEquals(MethodHelper.getPropertyName(null),null);
+		assertEquals(mh.getPropertyName(null), null);
 	}
-	
+
 	@Test
 	public void testGetPropertyName2() {
-		assertEquals(MethodHelper.getPropertyName(""),null);
+		assertEquals(mh.getPropertyName(""), null);
 	}
-	
+
 	@Test
 	public void testGetPropertyName3() {
-		assertEquals(MethodHelper.getPropertyName("set"),null);
+		assertEquals(mh.getPropertyName("set"), null);
 	}
-	
+
 	@Test
 	public void testGetPropertyName4() {
-		assertEquals(MethodHelper.getPropertyName("setG"),"g");
+		assertEquals(mh.getPropertyName("setG"), "g");
 	}
-	
+
 	@Test
 	public void testGetPropertyName5() {
-		assertEquals(MethodHelper.getPropertyName("setsdz"),"sdz");
+		assertEquals(mh.getPropertyName("setsdz"), "sdz");
 	}
-	
+
 }

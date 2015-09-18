@@ -1,0 +1,28 @@
+{
+	"id":{
+		"name":"Identifier",
+		"clazz":"TextField",
+		"validators":[
+			{
+				"validator":"IntegerRangeValidator",
+				"min":1,
+				"max":9
+			}
+		]
+	},
+	"lastName":{
+		"name":"Last name",
+		"clazz":"TextField",
+		"validators":[]
+	},
+	"firstName":{
+		"name":"First name",
+		"clazz":"TextField",
+		"validators":[]
+	},
+	"birthDate":{
+		"name":"Birthday",
+		"clazz":"PopupDateField",
+		"validators":[]
+	}
+}

@@ -1,0 +1,38 @@
+{
+    "className":"Person",
+    "tableName":"Persons",
+    "visibleColumns":["firstName","lastName","birthDate","location"],
+    "properties":{
+    	"width":"100%"
+    },
+    columns:[
+        {
+            "className":"TextField",
+            "property":"firstName",
+            "caption":"First Name"
+        },
+        {
+            "className":"TextField",
+            "property":"lastName",
+            "caption":"Last Name"
+        },
+        {
+            "className":"PopupDateField",
+            "property":"birthDate",
+            "caption":"Date of Birth",
+            "format":"dd-MM-yyyy"
+        },
+        {
+            "className":"JpoTextField",
+            "property":"id",
+            "caption":"Identifier"
+        },
+        {
+        	"className":"TextField",
+        	"property":"location",
+        	"caption":"Location"
+        }
+    ],
+    "columnOrder":true,
+    "selectable":true
+}

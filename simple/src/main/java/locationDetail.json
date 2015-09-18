@@ -1,0 +1,20 @@
+{
+    "caption":"Location Details",
+    "fields":[
+        {
+            "className":"TextField",
+            "property":"zipCode",
+            "caption":"Zip Code"
+        },
+        {
+            "className":"TextField",
+            "property":"city",
+            "caption":"City"
+        },
+        {
+            "className":"TextField",
+            "property":"street",
+            "caption":"Street"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "caption":"Person Details",
+    "fields":[
+        {
+            "className":"TextField",
+            "property":"firstName",
+            "caption":"First Name"
+        },
+        {
+            "className":"TextField",
+            "property":"lastName",
+            "caption":"Last Name"
+        },
+        {
+            "className":"PopupDateField",
+            "property":"birthDate",
+            "caption":"Date of Birth",
+            "dateFormat":"dd-MM-yyyy"
+        },
+        {
+            "className":"JpoTextField",
+            "property":"id",
+            "caption":"Identifier"
+        },
+        {
+        	"className":"ComboBox",
+        	"property":"location",
+        	"caption":"Location"
+        }
+    ]
+}
