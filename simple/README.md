@@ -1,11 +1,12 @@
 simple
 ==============
 
-Template for a simple Vaadin application that only requires a Servlet 3.0 container to run.
+Simple Vaadin application for generic master detail management with CDI
 
 
 Workflow
 ========
+Following text is standard Vaadin app workflow. Didn't check up to now...
 
 To compile the entire project, run "mvn install".
 To run the application, run "mvn jetty:run" and open http://localhost:8080/ .
